@@ -1,4 +1,3 @@
-[ChatGPT:]
 
 # Project Title
 
