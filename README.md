@@ -7,9 +7,7 @@ Copy the template, paste it to your GitHub README and edit! -->
 Excercise/Nutrition Planner
 
 ## Summary
-
-This system will be designed to generate customized exercise and nutrition plans. Users input their details and goals, and the system generates personalized workout routines considering factors like equipment availability, time constraints, and exercise preferences. It also creates customized meal plans based on dietary preferences, restrictions, and daily calorie targets. 
-
+I want to make a system that will plan out and give advice on specific workout plans, diet, and food preparation. I want it to have integrations with Cronometer, the USDA Food Database, Foodstruct.com, and more.
 
 ## Background
 
