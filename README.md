@@ -7,7 +7,7 @@ Copy the template, paste it to your GitHub README and edit! -->
 Excercise/Nutrition Planner
 
 ## Summary
-I want to make a system that will plan out and give advice on specific workout plans, diet, and food preparation. I want it to have integrations with Cronometer, the USDA Food Database, Foodstruct.com, and more.
+I want to make a system that will plan out and give advice on specific workout plans, diet, and food preparation. I want it to have integrations with Cronometer, the USDA Food Database, Foodstruct.com, AppleWatch Fitness, and more. I do not know if all of this is actually feasible. I have a vision of a better fitness application than those that I have used.
 
 ## Background
 
