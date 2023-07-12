@@ -4,11 +4,11 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Final project for the Building AI course
+Excercise/Nutrition Planner
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This system will be designed to generate customized exercise and nutrition plans. Users input their details and goals, and the system generates personalized workout routines considering factors like equipment availability, time constraints, and exercise preferences. It also creates customized meal plans based on dietary preferences, restrictions, and daily calorie targets. 
 
 
 ## Background
