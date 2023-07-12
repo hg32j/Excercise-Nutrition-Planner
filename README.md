@@ -4,74 +4,52 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Excercise/Nutrition Planner
+Fitness Planner Pro
 
 ## Summary
-I want to make a system that will plan out and give advice on specific workout plans, diet, and food preparation. I want it to have integrations with Cronometer, the USDA Food Database, Foodstruct.com, AppleWatch Fitness, and more. I do not know if all of this is actually feasible. I have a vision of a better fitness application than those that I have used.
+
+Fitness Planner Pro is a system that plans and provides advice on specific workout plans, diet, and food preparation. It integrates with Cronometer, the USDA Food Database, Foodstruct.com, AppleWatch Fitness, and more, offering a comprehensive and personalized fitness application.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Fitness enthusiasts often struggle to find an all-in-one solution that effectively plans their workouts, offers nutrition advice, and assists with food preparation. This project aims to address these challenges and provide a better fitness application than existing ones. By leveraging integrations with various platforms and databases, users can access accurate nutritional information, track their progress, and receive tailored recommendations.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+This project addresses the following problems:
+* Lack of personalized workout plans and nutrition guidance.
+* Inefficient tracking of nutritional intake and exercise progress.
+* Limited integration options with popular fitness and nutrition platforms.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+Fitness Planner Pro streamlines the fitness journey by offering a user-friendly interface. Users input their fitness goals, dietary preferences, and restrictions. The system generates personalized workout routines and meal plans based on the provided information. Users can track their workouts, monitor nutritional intake, and receive reminders and updates to stay motivated and on track.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Fitness Planner Pro utilizes data from multiple sources and integrates with various platforms:
+* Cronometer: For accurate nutritional data and food tracking.
+* USDA Food Database: To access comprehensive nutritional information.
+* Foodstruct.com: To enhance the database with additional food details.
+* AppleWatch Fitness: To synchronize exercise data and track activity levels.
+
+The system employs machine learning algorithms to analyze user data and provide personalized recommendations for workout plans and nutrition.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Fitness Planner Pro does not solve all fitness-related challenges. Limitations and ethical considerations to be taken into account include:
+* Accuracy of nutritional information from external databases.
+* Privacy and security of user data.
+* Availability and compatibility of integrations with external platforms.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+To further enhance Fitness Planner Pro, future steps may include:
+* Incorporating AI-based recommendations for exercise variations and meal modifications.
+* Expanding integration options with other popular fitness and nutrition platforms.
+* Implementing social features to foster community engagement and support.
+* Continuously updating and improving the system based on user feedback and evolving fitness trends.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Inspiration for this project comes from the desire to create a comprehensive fitness application that empowers individuals to achieve their fitness goals. We acknowledge the contributions of Reaktor Innovations and the University of Helsinki in providing the Building AI course, which laid the foundation for this project.
+
+The image used in this template is "Sleeping Cat on Her Back" by Umberto Salvagnin, licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
