@@ -30,4 +30,3 @@ The project has the potential to expand and become more comprehensive. Further d
 ## Acknowledgments
 
 * This project was inspired by the Building AI course offered by Reaktor Innovations and the University of Helsinki.
-* Image source: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
