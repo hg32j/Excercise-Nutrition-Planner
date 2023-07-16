@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 api_url = "https://api.nal.usda.gov/fdc/v1/food/175139/nutrients"
 
 # API key (replace with your own key)
-api_key = "YOUR_API_KEY"
+api_key = "6a5iMwMmMEVvgaRCkSMoq7ZYJxosZc9dNfWj5h22"
 
 # Request headers
 headers = {
