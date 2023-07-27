@@ -1,6 +1,6 @@
-# Project Title
-
 AI-Powered Fitness Planner and Nutrition Advisor
+
+
 
 ## Summary
 
