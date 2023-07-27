@@ -1,6 +1,6 @@
 AI-Powered Fitness Planner and Nutrition Advisor
 
-
+AI-Powered Fitness Planner and Nutrition Advisor
 
 ## Summary
 
