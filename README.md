@@ -73,3 +73,4 @@ To continue developing and expanding this project, the following skills and assi
 * [Apple Watch Fitness/Activity](https://developer.apple.com/documentation/healthkit) for real-time tracking of physical activities.
 * openai.com for ChatGPT 
 Please note that the code examples and images used in this template are placeholders and need to be replaced with relevant content for your project.
+University of Helsinki for providing free courses on "Elements of AI" and "Building AI"
