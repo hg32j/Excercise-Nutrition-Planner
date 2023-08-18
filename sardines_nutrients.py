@@ -1,39 +1,27 @@
 import requests
-import matplotlib.pyplot as plt
 
-# API endpoint for retrieving nutrient information
-api_url = "https://api.nal.usda.gov/fdc/v1/food/175139/nutrients"
+API_KEY = '6a5iMwMmMEVvgaRCkSMoq7ZYJxosZc9dNfWj5h22'
+FOOD_ID = '35814'  # USDA Food ID for generic canned sardines
 
-# API key (replace with your own key)
-api_key = "6a5iMwMmMEVvgaRCkSMoq7ZYJxosZc9dNfWj5h22"
+# Construct the API URL
+url = f"https://api.nal.usda.gov/fdc/v1/food/{FOOD_ID}?api_key={API_KEY}"
 
-# Request headers
-headers = {
-    "Content-Type": "application/json",
-    "api_key": api_key
-}
-
-# Send GET request to retrieve nutrient information
-response = requests.get(api_url, headers=headers)
+# Make the API request
+response = requests.get(url)
 
 # Check if the request was successful
 if response.status_code == 200:
     data = response.json()
-    
-    # Extract nutrient names and values
-    nutrients = data["foods"][0]["foodNutrients"]
-    nutrient_names = [nutrient["nutrientName"] for nutrient in nutrients]
-    nutrient_values = [nutrient["value"] for nutrient in nutrients]
-    
-    # Create a bar chart
-    plt.figure(figsize=(12, 6))
-    plt.bar(nutrient_names, nutrient_values)
-    plt.xticks(rotation=90)
-    plt.xlabel("Nutrient")
-    plt.ylabel("Value")
-    plt.title("Nutrient Values for Sardines")
-    plt.tight_layout()
-    plt.show()
+    food = data['food']
+
+    # Extract and print nutritional facts
+    nutrients = food['foodNutrients']
+    print("Nutritional Facts for Sardines:")
+    for nutrient in nutrients:
+        name = nutrient['nutrient']['name']
+        value = nutrient['amount']
+        unit = nutrient['nutrient']['unitName']
+        print(f"{name}: {value} {unit}")
 
 else:
-    print("Error: Unable to retrieve nutrient information.")
+    print("Error:", response.status_code)
